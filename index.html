@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slovak Motorsport Academy</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #1f2c57, #d41e1e);
-            color: white;
-            text-align: center;
-        }
-        header {
-            padding: 2rem;
-        }
-        header img {
-            max-width: 400px; /* zväčšené logo */
-            margin: 1rem auto;
-        }
-        nav {
-            background-color: #0b1120cc;
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            padding: 1rem;
-            flex-wrap: wrap;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 0.5rem 1rem;
-            background-color: #1f2c57;
-            border-radius: 10px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #d41e1e;
-        }
-        .collage {
-            margin-top: 2rem;
-            width: 100%;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        footer {
-            margin-top: 2rem;
-            padding: 1rem;
-            background-color: #0b1120cc;
-            color: #ccc;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slovak Motorsport Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1f2c57, #d41e1e);
+      color: white;
+      text-align: center;
+    }
+    .hero {
+      background-image: url("/SMA_logo2.png");
+      background-size: cover;
+      background-position: center;
+      height: 350px; /* výška žltého obdĺžnika */
+      width: 100%;
+    }
+    nav {
+      background-color: #0b1120cc;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      background-color: #1f2c57;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #d41e1e;
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #0b1120cc;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="/SMA_logo_bez_pozadia.png" alt="SMA Logo" />
-    </header>
-    <nav>
-        <a href="#onas">O nás</a>
-        <a href="#podujatia">Podujatia</a>
-        <a href="#akademia">Akadémia</a>
-        <a href="#minikary">Minikáry</a>
-        <a href="#formula">Formula Renault 2.0</a>
-        <a href="#kontakt">Kontakt</a>
-    </nav>
-    <img src="/header-collage.png" class="collage" alt="Úvodná koláž" />
-    <footer>
-        &copy; 2025 Slovak Motorsport Academy
-    </footer>
+  <div class="hero"></div>
+
+  <nav>
+    <a href="#onas">O nás</a>
+    <a href="#podujatia">Podujatia</a>
+    <a href="#akademia">Akadémia</a>
+    <a href="#minikary">Minikáry</a>
+    <a href="#formula">Formula Renault 2.0</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <footer>
+    &copy; 2025 Slovak Motorsport Academy
+  </footer>
 </body>
 </html>
