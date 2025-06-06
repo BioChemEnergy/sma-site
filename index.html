@@ -4,48 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Slovak Motorsport Academy</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #1f2c57, #d41e1e);
-      color: white;
-      text-align: center;
-    }
-    .hero {
-      background-image: url("/SMA_logo2.png");
-      background-size: cover;
-      background-position: center;
-      height: 350px; /* výška žltého obdĺžnika */
-      width: 100%;
-    }
-    nav {
-      background-color: #0b1120cc;
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      background-color: #1f2c57;
-      border-radius: 10px;
-      transition: background-color 0.3s;
-    }
-    nav a:hover {
-      background-color: #d41e1e;
-    }
-    footer {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: #0b1120cc;
-      color: #ccc;
-    }
-  </style>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1f2c57, #d41e1e);
+    color: white;
+    text-align: center;
+  }
+
+  .hero {
+    background-image: url("/SMA_logo2.png");
+    background-size: contain; /* zobrazí celé logo */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px; /* vyšší priestor pre celé logo */
+    width: 100%;
+  }
+
+  nav {
+    background-color: #0b1120cc;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #1f2c57;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #d41e1e;
+  }
+
+  footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #0b1120cc;
+    color: #ccc;
+  }
+</style>
+
 </head>
 <body>
   <div class="hero"></div>
